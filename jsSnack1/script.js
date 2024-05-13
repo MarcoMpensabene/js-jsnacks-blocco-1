@@ -6,6 +6,8 @@ let numeroB = Number.parseInt(prompt("Inserisci un numero intero") , 10);
 
 if (numeroA > numeroB) {
     console.log(numeroA)
+} else if ( numeroA === numeroB){
+    console.log(numeroA , numeroB)
 } else {
     console.log(numeroB)
 }
