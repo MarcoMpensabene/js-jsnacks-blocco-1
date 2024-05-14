@@ -15,9 +15,12 @@ document.body.appendChild(divElTwo);
 const numberList = [ 1 , 2 , 3 ,44 ,77 , 192 , 392 , 888 , 99 ];
 
 for (let i = 0 ; i < numberList.length ; i++){
+        const newEl = document.createElement("p")
+        newEl.append(numberList[i])
+    
     if(numberList[i] % 2 === 1){
-        document.getElementById("First").innerHTML = numberList[i];
+        divEl.appendChild(newEl)
     } else {
-        document.getElementById("Second").innerHTML = numberList[i];
+        divElTwo.appendChild(newEl)
     }
 }
