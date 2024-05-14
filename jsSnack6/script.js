@@ -3,10 +3,10 @@
 const intNumber = [ 1 , 2 , 3 , 4 , 5, 6 , 7 , 8, 9 , 10];
 let somma = 0;
 for(let i = 0 ; i < intNumber.length ; i++){
-    console.log(intNumber[i])
-    if (intNumber[i] % 2 === 1){
+    console.log(intNumber[i]);
+    if (i % 2 === 1){
         somma += intNumber[i];
     }
-}console.log(somma)
+}console.log(somma);
 
 
